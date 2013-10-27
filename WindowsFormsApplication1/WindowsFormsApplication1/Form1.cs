@@ -32,7 +32,7 @@ namespace WindowsFormsApplication1
            
             zj = str.Split(' ','\n');
             m = int.Parse(zj[0]);
-            n = int.Parse(zj[1]);//获取矩阵的长和款
+            n = int.Parse(zj[1]);//获取矩阵的长和宽
             p=2;//从zj数组第三个元素开始记录矩阵
             for (i = 0; i < m; i++)
             {
